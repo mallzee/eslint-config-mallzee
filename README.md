@@ -7,21 +7,21 @@ This packages provides a "mallzee" preset for use in your projects.
 ## Installation
 
 1. Install the npm packages required to style check your code
+```bash
+  npm install --save-dev eslint-config-mallzee
+```
 
-    npm install --save-dev eslint-config-mallzee
+2. Run this command to import the correct peer dependancies
+```bash
+  npx install-peerdeps --dev eslint-config-mallzee
+```
 
-2. Create a .eslintrc in the root of your project
+3. Create a .eslintrc in the root of your project
 
-3. Extend the mallzee config
+4. Extend the mallzee config
 
 ```javascript
 {
   "extends": "mallzee"
 }
-```
-
-4. Run this command to import the correct peer dependancies
-
-```bash
-npx install-peerdeps --dev eslint-config-mallzee
 ```
