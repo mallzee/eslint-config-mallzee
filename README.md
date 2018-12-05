@@ -15,7 +15,13 @@ This packages provides a "mallzee" preset for use in your projects.
 3. Extend the mallzee config
 
 ```javascript
-module.exports = {
-    extends: "mallzee"
-};
+{
+  "extends": "mallzee"
+}
+```
+
+4. Run this command to import the correct peer dependancies
+
+```bash
+npx install-peerdeps --dev eslint-config-mallzee
 ```

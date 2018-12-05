@@ -22,7 +22,14 @@
     "eslint-plugin-react": "^7.11.1",
     "semantic-release": "^15.12.4"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "semantic-release": "^15.12.4"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mallzee/eslint-config-mallzee.git"
